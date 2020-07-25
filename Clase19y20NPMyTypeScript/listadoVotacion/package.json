@@ -1,0 +1,16 @@
+{
+  "name": "listadoVotacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ejecutar": "tsc listados.ts & node listados.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.20"
+  }
+}

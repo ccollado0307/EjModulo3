@@ -1,0 +1,17 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ejecutar": "node archivo1.js & node archivo2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asciichart": "^1.5.21",
+    "readline-sync": "^1.4.10"
+  }
+}
