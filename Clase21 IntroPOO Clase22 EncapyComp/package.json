@@ -1,0 +1,20 @@
+{
+  "name": "Clase21IntroPOO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tv": "tsc Televisor/televisor.ts & node Televisor/televisor.js",
+    "auto": "tsc Auto/auto.ts & node Auto/auto.js",
+    "monitor": "tsc Monitor/monitor.ts & node Monitor/monitor.js", 
+    "regAut": "tsc registroAutomotor/regAut.ts & node registroAutomotor/regAut.js", 
+    "matriz": "tsc Matriz/matriz.ts & node Matriz/matriz.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

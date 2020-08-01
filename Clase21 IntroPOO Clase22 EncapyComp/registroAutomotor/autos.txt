@@ -1,0 +1,4 @@
+Toyota,2016,rojo,180
+Toyota,2018,blanco,180
+Fiat,2016,azul,180
+Chevrolet,2015,gris noche,180
