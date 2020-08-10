@@ -1,0 +1,15 @@
+{
+  "name": "Clase24Herencia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tv": "tsc TV/tv.ts & node TV/tv.js",
+    "telefono": "tsc Telefono/telefono.ts & node Telefono/telefono.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
