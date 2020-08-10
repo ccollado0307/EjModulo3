@@ -5,6 +5,7 @@ class Nodo {
     private columna: number;
     private valor: number;
     
+
     public constructor(fila: number, columna: number, valor: number) {
         this.fila = fila;
         this.columna = columna;
@@ -35,6 +36,7 @@ class Nodo {
         this.valor = valor;
     }
 }
+
 class Matriz {
     private matriz: Array<Nodo>;
 
@@ -105,7 +107,7 @@ let aux2: number = readlineSync.questionInt('Ingrese la Cantidad de Columnas ');
 let arregloPrueba = cargarArreglo(aux1,aux2);
 console.log('La MATRIZ esta dada por los pares ', arregloPrueba);
 
-let matriz: Matriz = new Matriz;
+let matriz: Matriz = new Matriz();
 matriz.cargarMatriz(arregloPrueba) 
 console.log('La MATRIZ esta dada por los nodos ', matriz);
 

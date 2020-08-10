@@ -27,47 +27,7 @@ var Nodo = /** @class */ (function () {
     };
     return Nodo;
 }());
-var Matriz = /** @class */ (function () {
-    function Matriz() {
-        var _this = this;
-        //Esta funcion recibe como parametro la matriz e instancia a la Clase Matriz 
-        this.cargarMatriz = function (arreglo) {
-            var arregloColumna;
-            for (var i = 0; i < arreglo.length; i++) {
-                arregloColumna = arreglo[i];
-                for (var j = 0; j < arregloColumna.length; j++) {
-                    var nodo = new Nodo(i, j, arregloColumna[j]);
-                    _this.matriz.push(nodo);
-                }
-            }
-        };
-        this.getElem = function (fila, columna) {
-            var nodo = _this.matriz[_this.matriz.length - 1]; //Tomo el ultimo NODO para saber la cant de FILAS y COLUMNAS
-            var i = nodo.getFila();
-            var j = nodo.getColumna();
-            var pos = -1; //Lo utilizo para moverme dentro del arreglo 
-            for (var iCont = 0; iCont <= i; iCont++) {
-                pos++;
-                if (iCont == fila) {
-                    for (var jCont = 0; jCont <= j; jCont++) {
-                        nodo = _this.matriz[pos];
-                        if (jCont == columna) {
-                            return nodo.getValor();
-                        }
-                        pos++; //Adelanto una fila
-                    }
-                }
-                else {
-                    pos = pos + j; //Adelanto todas la columnas
-                }
-            }
-            return -1;
-        };
-        this.matriz = [];
-    }
-    return Matriz;
-}());
-//Esta funcion devuelve el valor en la posicion (i,j)
+
 //Esta funcion recibe como paramaetro la cant Filas y Columnas y devuelve una matriz
 var cargarArreglo = function (cantF, cantC) {
     var arregloF = new Array(cantF);
@@ -85,6 +45,7 @@ var aux1 = readlineSync.questionInt('Ingrese la Cantidad de Filas ');
 var aux2 = readlineSync.questionInt('Ingrese la Cantidad de Columnas ');
 var arregloPrueba = cargarArreglo(aux1, aux2);
 console.log('La MATRIZ esta dada por los pares ', arregloPrueba);
+
 var matriz = new Matriz;
 matriz.cargarMatriz(arregloPrueba);
 console.log('La MATRIZ esta dada por los nodos ', matriz);

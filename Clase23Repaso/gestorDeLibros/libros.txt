@@ -1,0 +1,4 @@
+1,El mar celeste,Delfina Perez,89,Kapeluz
+2,Cielo azul,Barbara Gomez,101,Pupitre
+3,La laguna blanca,Patricio Gonzalez,34,BBlanca
+4,Aprende a programar,CFL2020,1000,Glow
