@@ -1,0 +1,16 @@
+{
+  "name": "Clase25EjFueraDeClase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "vajilla": "tsc Ejercicio2/vajilla.ts & node Ejercicio2/vajilla.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
