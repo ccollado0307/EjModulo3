@@ -1,0 +1,15 @@
+{
+  "name": "Clase27",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "auto": "tsc EjAuto/main.ts & node EjAuto/main.js",
+    "vehiculo": "tsc Ej2Vehiculo/main.ts & node Ej2Vehiculo/main.js",
+    "telefono": "tsc Ej1Telefono/main.ts & node Ej1Telefono/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
