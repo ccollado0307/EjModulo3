@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var auto_1 = require("./auto");
+var autoCarrera_1 = require("./autoCarrera");
+var readlineSync = require("readline-sync");
+var auto = new auto_1.Auto();
+auto.acelerar();
+console.log('El AUTO es ', auto);
+var autoCarrera = new autoCarrera_1.AutoCarrera();
+autoCarrera.setMarca(readlineSync.question('Ingrese la marca del Vehiculo: '));
+autoCarrera.acelerar();
+console.log('El AUTO DE CARRERA es ', autoCarrera);
