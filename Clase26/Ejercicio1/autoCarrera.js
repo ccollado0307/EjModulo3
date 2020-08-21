@@ -22,9 +22,6 @@ var AutoCarrera = /** @class */ (function (_super) {
         _this.auspiciante = 'Flia Perez';
         return _this;
     }
-    AutoCarrera.prototype.setMarca = function (marca) {
-        this.marca = marca;
-    };
     AutoCarrera.prototype.setAuspiciante = function (auspiciante) {
         this.auspiciante = auspiciante;
     };

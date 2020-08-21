@@ -1,6 +1,6 @@
 
 export class Auto {
-    protected marca: String ;
+    private marca: String ;
     private modelo: number;
     protected velocidadActual: number ;
 

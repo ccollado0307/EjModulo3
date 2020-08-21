@@ -8,10 +8,6 @@ export class AutoCarrera extends Auto {
         this.auspiciante = 'Flia Perez';
     }
 
-    public setMarca(marca: string){
-        this.marca = marca;
-    }
-
     public setAuspiciante(auspiciante: string) {
         this.auspiciante = auspiciante;
     }
