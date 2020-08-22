@@ -28,11 +28,8 @@ var Circulo = /** @class */ (function (_super) {
     Circulo.prototype.getRadio = function () {
         return this.radio;
     };
-    Circulo.prototype.calcularPerimetro = function () {
-        return (12.57);
-    };
-    Circulo.prototype.calcularArea = function () {
-        return (12.57);
+    Circulo.prototype.indicarCantLados = function () {
+        this.cantLados = 1;
     };
     return Circulo;
 }(figura_1.Figura));

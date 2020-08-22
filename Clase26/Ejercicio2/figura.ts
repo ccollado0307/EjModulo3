@@ -1,23 +1,25 @@
 export class Figura {
-    protected color: string ;
+    protected cantLados: number;
+    private color: string ;
 
-    public constructor(color:string) {
+    public constructor(color: string) {
+        this.cantLados = 0;
         this.color = color;
     }
 
-    public calcularPerimetro(): number {
-        return 0;
-    }
-
-    public calcularArea(): number {
-        return 0;
-    }
-
-    public secColor(color:string) {
+    public setColor(color: string) {
         this.color = color;
     }
 
     public getColor(): string {
         return this.color;
+    }
+
+    public indicarCantLados(): void {
+        this.cantLados = 1;
+    }
+
+    public getCantLados(): number {
+        return this.cantLados;
     }
 }

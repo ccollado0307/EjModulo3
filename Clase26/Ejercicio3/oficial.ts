@@ -19,7 +19,7 @@ export class Oficial extends Persona {
         return this.carrera;
     }
 
-    public setGrado() { 
-        this.grado = 'CT';
+    public indicarGrado() {
+        this.grado = 'OFICIAL';
     }
 }

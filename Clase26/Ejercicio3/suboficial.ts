@@ -16,7 +16,7 @@ export class Suboficial extends Persona {
         return this.supSubalt;
     }
 
-    public setGrado() { 
-        this.grado = 'SV';
+    public indicarGrado() {
+        this.grado = 'SUBOFICIAL';
     }
 }

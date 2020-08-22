@@ -16,11 +16,7 @@ export class Circulo extends Figura {
         return this.radio;
     }
 
-    public calcularPerimetro(): number {
-        return (12.57);
-    }
-
-    public calcularArea(): number {
-        return (12.57);
+    public indicarCantLados() {
+        this.cantLados = 1;
     }
 }

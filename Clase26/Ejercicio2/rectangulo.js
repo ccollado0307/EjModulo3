@@ -29,11 +29,8 @@ var Rectangulo = /** @class */ (function (_super) {
     Rectangulo.prototype.setAltura = function (altura) {
         this.altura = altura;
     };
-    Rectangulo.prototype.calcularPerimetro = function () {
-        return ((this.base + this.altura) * 2);
-    };
-    Rectangulo.prototype.calcularArea = function () {
-        return (this.base * this.altura);
+    Rectangulo.prototype.indicarCantLados = function () {
+        this.cantLados = 4;
     };
     return Rectangulo;
 }(figura_1.Figura));

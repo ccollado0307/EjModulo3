@@ -1,6 +1,6 @@
 export class Persona {
     private dni: string;
-    apYNomb: string;
+    private apYNomb: string;
     protected grado: string ;
 
     public constructor(dni:string,apYNomb:string) {
@@ -9,11 +9,11 @@ export class Persona {
         this.grado = '';
     }
 
-    public setGrado(grado: string) {
-        this.grado = 'SV';
+    public indicarGrado() {
+        this.grado = 'EA';
     }
 
-    public secDNI(dni:string) {
+    public setDNI(dni:string) {
         this.dni = dni;
     }
 
@@ -21,7 +21,7 @@ export class Persona {
         return this.dni;
     }
 
-    public secApYNomb(apYNomb:string) {
+    public setApYNomb(apYNomb:string) {
         this.apYNomb = apYNomb;
     }
 

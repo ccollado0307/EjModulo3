@@ -18,11 +18,7 @@ export class Rectangulo extends Figura {
         this.altura = altura;
     }
 
-    public calcularPerimetro(): number {
-        return ((this.base+this.altura)*2);
-    }
-
-    public calcularArea(): number {
-        return (this.base * this.altura);
+    public indicarCantLados() {
+        this.cantLados = 4;
     }
 }
