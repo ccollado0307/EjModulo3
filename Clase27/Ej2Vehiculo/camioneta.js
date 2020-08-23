@@ -25,10 +25,10 @@ var Camioneta = /** @class */ (function (_super) {
     Camioneta.prototype.acelerar = function () {
         this.velocidadActual += 10;
     };
-    Camioneta.prototype.setColor = function () {
-        this.color = 'blanco';
+    Camioneta.prototype.setColor = function (color) {
+        this.color = color;
     };
-    Camioneta.prototype.setCaja = function () {
+    Camioneta.prototype.modifCaja = function () {
         this.conCaja = !this.conCaja;
     };
     Camioneta.prototype.getCaja = function () {

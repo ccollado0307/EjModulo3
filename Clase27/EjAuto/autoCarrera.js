@@ -9,6 +9,9 @@ var AutoCarrera = /** @class */ (function () {
     AutoCarrera.prototype.acelerar = function () {
         this.velocidadActual += 50;
     };
+    AutoCarrera.prototype.getVelocidadMaxima = function () {
+        return this.velocidadActual;
+    };
     AutoCarrera.prototype.setColor = function (color) {
         this.color = color;
     };

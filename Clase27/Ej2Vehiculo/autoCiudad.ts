@@ -12,8 +12,8 @@ export class AutoCiudad extends Vehiculo {
         this.velocidadActual += 15;
     }
 
-    public setColor(): void {
-        this.color = 'azul';
+    public setColor(color: string): void {
+        this.color = color;
     }
 
     public setTipoCaja(tipoCaja: string) {

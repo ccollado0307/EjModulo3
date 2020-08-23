@@ -6,4 +6,3 @@ console.log('Auto sin acelerar ', auto);
 auto.setColor('blanco');
 auto.acelerar();
 console.log('Auto despues de acelerar ', auto);
-//console.log(auto.getVelocidadMaxima());

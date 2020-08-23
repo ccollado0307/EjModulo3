@@ -25,8 +25,8 @@ var AutoCiudad = /** @class */ (function (_super) {
     AutoCiudad.prototype.acelerar = function () {
         this.velocidadActual += 15;
     };
-    AutoCiudad.prototype.setColor = function () {
-        this.color = 'azul';
+    AutoCiudad.prototype.setColor = function (color) {
+        this.color = color;
     };
     AutoCiudad.prototype.setTipoCaja = function (tipoCaja) {
         this.tipoCaja = tipoCaja;

@@ -25,10 +25,10 @@ var AutoDeportivo = /** @class */ (function (_super) {
     AutoDeportivo.prototype.acelerar = function () {
         this.velocidadActual += 20;
     };
-    AutoDeportivo.prototype.setColor = function () {
-        this.color = 'rojo';
+    AutoDeportivo.prototype.setColor = function (color) {
+        this.color = color;
     };
-    AutoDeportivo.prototype.setDescapotableCaja = function () {
+    AutoDeportivo.prototype.modifDescapotableCaja = function () {
         this.descapotable = !this.descapotable;
     };
     AutoDeportivo.prototype.getDescapotable = function () {

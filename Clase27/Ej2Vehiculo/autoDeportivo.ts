@@ -12,11 +12,11 @@ export class AutoDeportivo extends Vehiculo {
         this.velocidadActual += 20;
     }
 
-    public setColor(): void {
-        this.color = 'rojo';
+    public setColor(color: string): void {
+        this.color = color;
     }
 
-    public setDescapotableCaja() {
+    public modifDescapotableCaja() {
         this.descapotable = !this.descapotable;
     }
 

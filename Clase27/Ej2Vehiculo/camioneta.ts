@@ -12,11 +12,11 @@ export class Camioneta extends Vehiculo {
         this.velocidadActual += 10;
     }
 
-    public setColor(): void {
-        this.color = 'blanco';
+    public setColor(color: string): void {
+        this.color = color;
     }
 
-    public setCaja() {
+    public modifCaja() {
         this.conCaja = !this.conCaja;
     }
 

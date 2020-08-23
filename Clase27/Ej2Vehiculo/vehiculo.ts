@@ -13,11 +13,12 @@ export abstract class Vehiculo {
    
     abstract acelerar(): void;
 
-    abstract setColor(): void;
+    abstract setColor(color: string): void;
     
     public prender(): void {
         this.estaPrendido = true;
     }
+
     public apagar(): void {
         this.estaPrendido = false;
     }
