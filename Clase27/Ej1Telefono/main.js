@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var smartphone_1 = require("./smartphone");
+var smartphone = new smartphone_1.Smartphone();
+smartphone.prender();
+console.log(smartphone);
+smartphone.apagar();
+console.log(smartphone);
+smartphone.prender();
+smartphone.llamar('154604600');
+smartphone.sacarFoto();
