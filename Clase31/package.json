@@ -1,0 +1,13 @@
+{
+  "name": "Clase31",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ej2": "tsc Ejercicio2/main.ts & node Ejercicio2/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
