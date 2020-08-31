@@ -1,0 +1,16 @@
+"use strict";
+exports.__esModule = true;
+var vendedor_1 = require("./vendedor");
+var autoCiudad_1 = require("./autoCiudad");
+var autoCarrera_1 = require("./autoCarrera");
+var vendedor = new vendedor_1.Vendedor();
+var autoCiudad = new autoCiudad_1.AutoCiudadBuilder();
+var autoCarrera = new autoCarrera_1.AutoCarreraBuilder();
+vendedor.setAutoBuilder(autoCiudad);
+vendedor.constAuto();
+var auto = vendedor.getAuto();
+console.log('Auto de Ciudad ', auto);
+vendedor.setAutoBuilder(autoCarrera);
+vendedor.constAuto();
+auto = vendedor.getAuto();
+console.log('Auto de Carrera', auto);
